@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="InputForm.css">
+</head>
+<body>
+    <div class="box">
+
+        <form>
+            <h1>Application Form</h1>
+            <div>
+                <label for="name">Name : <samp>*</samp></label> <br>
+                <input type="text" name="name" id="name" required placeholder="Enter Your Name">
+            </div>    
+
+            
+            <div class="box-1">
+                <label for="phone">Phone : <samp>*</samp></label><br>
+                <input type="tel" name="phone" id="phone" required placeholder="Enter Your Phone Number">   
+            </div>   
+
+            <div class="box-2">
+                <label for="email">Email : <samp>*</samp></label><br>
+                <input type="email" name="email" id="email" required placeholder="Enter Your Email">
+            </div>    
+
+            <div class="box-3">
+                <label for="fathar">Fathar`s Name : <samp>*</samp></label>
+                <input type="text" name="fathar" id="name" required placeholder="Enter Your Fathar Name">
+            </div>  
+
+            <div class="box-4">
+                <label for="mothar">Mothar`s Name : <samp>*</samp></label>
+                <input type="text" name="mothar" id="mothar" required placeholder="Enter Your Mothar Name">
+            </div>    
+                
+                
+            <div>
+                <label for="password">Password : <samp>*</samp></label>  
+                <input type="password" name="password" id="password" required placeholder="Enter Your Password">
+            </div>      
+        
+
+
+            
+            <div class="box-4">
+                <label for="date">Date of Barth : <samp>*</samp></label>
+                <input type="date" name="date" id="date" required>
+            </div>    
+                
+            <div class="box-5">
+                <label for="website"> Website : <samp>*</samp></label>
+                <input type="url" name="website" id="website" required placeholder="Enter Your Website Link">
+            </div> 
+
+            <div class="box-7">
+                <label for="photo">Select Your Photo : <samp>*</samp></label>
+                <input type="file" id="photo" name="photo" required>
+            </div>      
+
+            <div class="box-8">
+                <label for="class">Class : <samp>*</samp></label>
+                <select id="class" name="class" required>
+                    <option>---Select Your Class---</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Gender : <samp>*</samp></legend>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="male">Male</label>
+                    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female" required>
+                    <label for="female">Female</label>
+                </fieldset>     
+            </div>
+
+            <Button type="reset" id="reset"> Reset</Button> 
+            <button type="submit" id="submit">Submit</button>
+
+         </form>
+    </div>
+</body>
+</html>
